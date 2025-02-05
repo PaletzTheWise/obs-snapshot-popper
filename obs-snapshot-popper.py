@@ -477,7 +477,7 @@ class SnapshotPopper:
         return f"""<center><h2>Snapshot Popper</h2></center>
                   <p>Creates a hotkey to display a snapshot from a source for a duration of time. The snapshots are taken continuously.</p>
                   <p>Requires obs-screenshot-plugin.</p>
-                  <p>The hotkey can configured in File -> Settings -> Hotkeys -> \"{self._POP_SNAPSHOT_LABEL}\".</p>"""
+                  <p>The hotkey can be configured in File → Settings → Hotkeys → \"{self._POP_SNAPSHOT_LABEL}\".</p>"""
 
     def defaults( self, settings : obs_data ):
         """Set default values of data settings"""
