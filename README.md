@@ -3,3 +3,5 @@ This is a script that can be loaded by OBS (Tools -> Scripts). It creates a new 
 This script uses the obs-screenshot-filter which must be installed separately.
 
 ![image](https://github.com/user-attachments/assets/46516f0a-5dc3-4f72-8446-47bb7e1c3812)
+
+Tip: The script respects "Show Transition" and "Hide Transition" configured on the display source. You can find these settings by right-clicking on the source in the OBS source tab.
